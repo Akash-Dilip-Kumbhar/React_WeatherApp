@@ -20,14 +20,6 @@ const getWhether=()=>{
     .catch((error)=>console.log(error));
 }
 
-// const getWhether=()=>{
-//     axios
-// .get(
-//       `https://api.openweathermap.org/data/2.5/weather?q=${City}&appid=${API_KEY}&units=metric`
-//     )
-//     .then((response)=>setWheatherData(response.data))
-//     .catch((error)=>console.log(error));
-// }
 
   return (
     <>
